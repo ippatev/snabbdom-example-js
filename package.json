@@ -1,0 +1,18 @@
+{
+  "name": "snabbdom-example-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel index.js -d dist"
+  },
+  "dependencies": {
+    "snabbdom": "^3.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/preset-es2015": "^7.0.0-beta.53"
+  }
+}
